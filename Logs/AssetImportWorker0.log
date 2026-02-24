@@ -1,0 +1,738 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-84346" at "2026-02-24T08:10:07.6390493Z"
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'vi' Physical Memory: 15724 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-24T08:10:07Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/84346/Downloads/My project/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54619
+-licensingIpc
+LicenseClient-84346
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/84346/Downloads/My project/My project
+C:/Users/84346/Downloads/My project/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [2936]  Target information:
+
+Player connection [2936]  * "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 1642486006 [EditorId] 1642486006 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-540RM9UI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2936] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2936] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 56.20 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/84346/Downloads/My project/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3937 MB
+    Driver:   32.0.15.7652
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006968 seconds.
+- Loaded All Assemblies, in  1.336 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              12a6baf912ac49239c1d9f52bbe15f70
+  Correlation Id:          d4bf20167662c3a728072555dc933c5a
+  External correlation Id: 4611047083055449374
+  Machine Id:              erzJI888EFxVCYzK5hiWPMZoY+s=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-84346" (connect: 0.00s, validation: 0.01s, handshake: 3.78s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-84346-notifications" at "2026-02-24T08:10:11.4301401Z"
+[Licensing::Module] Licensing Background thread has ended after 3.79s
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.266 seconds
+Domain Reload Profiling: 2587ms
+	BeginReloadAssembly (452ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (129ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (159ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (440ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (525ms)
+			TypeCache.Refresh (519ms)
+				TypeCache.ScanAssembly (479ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1267ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1118ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (173ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (305ms)
+			ProcessInitializeOnLoadAttributes (465ms)
+			ProcessInitializeOnLoadMethodAttributes (165ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18967753423313-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.404 seconds
+Refreshing native plugins compatible for Editor in 34.49 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.732 seconds
+Domain Reload Profiling: 5119ms
+	BeginReloadAssembly (502ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (1676ms)
+		LoadAssemblies (1131ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (852ms)
+			TypeCache.Refresh (521ms)
+				TypeCache.ScanAssembly (472ms)
+			BuildScriptInfoCaches (275ms)
+			ResolveRequiredComponents (48ms)
+	FinalizeReload (2734ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2113ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (509ms)
+			ProcessInitializeOnLoadAttributes (1215ms)
+			ProcessInitializeOnLoadMethodAttributes (349ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 39.29 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7512 unused Assets / (6.5 MB). Loaded Objects now: 8328.
+Memory consumption went from 156.8 MB to 150.2 MB.
+Total: 38.752900 ms (FindLiveObjects: 2.072100 ms CreateObjectMapping: 2.446300 ms MarkObjects: 24.924800 ms  DeleteObjects: 9.307100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2150492.019469 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/UI Toolkit/UnityThemes
+  artifactKey: Guid(7afaec5068d0a914f8380c64fbba083b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/UI Toolkit/UnityThemes using Guid(7afaec5068d0a914f8380c64fbba083b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c0043d6b15dc04d008fdf6247bf77c9') in 0.1651623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/5_State/Meshes
+  artifactKey: Guid(5f8fefc3071be4bcebccab957ba4213d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/5_State/Meshes using Guid(5f8fefc3071be4bcebccab957ba4213d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e6f5555c53dcb24350c4388fd5bc53c') in 0.0139541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/Resources/ButtonData/ResourcesMenu
+  artifactKey: Guid(13ecf6cfbd51280419db8866481a89bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/Resources/ButtonData/ResourcesMenu using Guid(13ecf6cfbd51280419db8866481a89bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a32fc0e2dab2ea19a1cd76949cc05627') in 0.0140102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/4_Command/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/4_Command/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a84025a8abb38ada5afc893c37aa1735') in 0.0139082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/Art/Particles/Materials
+  artifactKey: Guid(34cc9d0f41ce1f645a78acec10304090) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/Art/Particles/Materials using Guid(34cc9d0f41ce1f645a78acec10304090) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da8f4b4d27793e3c5733c60ec57ad6f0') in 0.0128512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/4_Command/Scripts/Pattern
+  artifactKey: Guid(40ca5b01d0477124cbaa8b6647bcf2bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/4_Command/Scripts/Pattern using Guid(40ca5b01d0477124cbaa8b6647bcf2bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43685310183db0800c8da15f7b261b87') in 0.0185568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/Art/Particles/Textures
+  artifactKey: Guid(c8708c4ed05e52247b73ff200024a72f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/Art/Particles/Textures using Guid(c8708c4ed05e52247b73ff200024a72f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9234de731c8db441437e7764278a698') in 0.014339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/6_Observer
+  artifactKey: Guid(93a07c5acfa073549981cc39baff3df2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/6_Observer using Guid(93a07c5acfa073549981cc39baff3df2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bddde19b4a53f15ffd0df8d529479ea0') in 0.0174061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_SOLID/5_DependencyInversion/Scripts/Unrefactored
+  artifactKey: Guid(ade2ea9191498e6488116de65df1a9bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_SOLID/5_DependencyInversion/Scripts/Unrefactored using Guid(ade2ea9191498e6488116de65df1a9bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e5c7ab903a1b3f685ce2ae6285b1061') in 0.0159675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/6_Observer/Prefabs/ParticleSystems
+  artifactKey: Guid(aa2422ace3d4b435bb52b4d2ae88b945) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/6_Observer/Prefabs/ParticleSystems using Guid(aa2422ace3d4b435bb52b4d2ae88b945) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29e15b0511d7cc8f755b2b1edb1f4560') in 0.0241533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/UI Toolkit/Resources
+  artifactKey: Guid(4e3fd9d30e0f1044289e93faa2b64918) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/UI Toolkit/Resources using Guid(4e3fd9d30e0f1044289e93faa2b64918) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4fb83b00a35dbd1962f45f025fc66f9') in 0.0123299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVVM/Data
+  artifactKey: Guid(c9fca51a224acca4bb938c9b5ea7700f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVVM/Data using Guid(c9fca51a224acca4bb938c9b5ea7700f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b8402ca3c52a3dcf2e607129800acda') in 0.0160576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/5_State/Scripts
+  artifactKey: Guid(a92a453724550423cb01234543c4b8be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/5_State/Scripts using Guid(a92a453724550423cb01234543c4b8be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43d9a31765f6b85b43373982b0e92d39') in 0.0110153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVVM
+  artifactKey: Guid(12cc48b479e94b74291476ec30f27f61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVVM using Guid(12cc48b479e94b74291476ec30f27f61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b9394b11cb219322d208f6f25cfab0d') in 0.0120825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/8_Strategy
+  artifactKey: Guid(b88bff1c40bc3e341bed12eeddfdaa3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/8_Strategy using Guid(b88bff1c40bc3e341bed12eeddfdaa3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6026720b7278b4fff6f62d8af824bc54') in 0.0121906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/Resources/ButtonData/GameScene
+  artifactKey: Guid(6a381a2a02ad2b249ae046b57a71e4b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/Resources/ButtonData/GameScene using Guid(6a381a2a02ad2b249ae046b57a71e4b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52d0149fdce08c94132e9feea6ffe15f') in 0.0111443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_SOLID/3_LiskovSubstitution
+  artifactKey: Guid(94f1735d883eac04f90e853d47ca79df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_SOLID/3_LiskovSubstitution using Guid(94f1735d883eac04f90e853d47ca79df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '861d60981888a618621fe2c94b7433c6') in 0.0112348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/1_Factory/Materials
+  artifactKey: Guid(2dd810115e0a8814e96d59c443335e54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/1_Factory/Materials using Guid(2dd810115e0a8814e96d59c443335e54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e8db4e0972aa19e23dfb37f087302d7') in 0.0115793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/Resources/EventMessages/MainMenu
+  artifactKey: Guid(015eb45dd94509f4f99ff102dfbb8aea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/Resources/EventMessages/MainMenu using Guid(015eb45dd94509f4f99ff102dfbb8aea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4915c6a63be5ae4b26d1f11a6f513ec4') in 0.0106546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/4_Command/Prefabs
+  artifactKey: Guid(8c197b4742d915e4da323e2c6acab8c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/4_Command/Prefabs using Guid(8c197b4742d915e4da323e2c6acab8c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a39c317aef08c4cabb33b01204830a40') in 0.0150123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/6_Observer/Scripts/ExampleUsage
+  artifactKey: Guid(95257c76c315246f188e3985d27d6aa6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/6_Observer/Scripts/ExampleUsage using Guid(95257c76c315246f188e3985d27d6aa6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8daad3049bec17b6e24e5654c7177b99') in 0.0150125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_SOLID
+  artifactKey: Guid(eca3af0948908a547994013fcf3c0c9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_SOLID using Guid(eca3af0948908a547994013fcf3c0c9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '959c3bcef696e795d77804092ffe045e') in 0.0117641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/Scripts/StateMachine/States
+  artifactKey: Guid(21264573ab8fd48229334776023d494a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/Scripts/StateMachine/States using Guid(21264573ab8fd48229334776023d494a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b64d50243c63ad14812e3d426a6f092') in 0.0134045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/9_Flyweight/Prefabs
+  artifactKey: Guid(5deb4899c72af3640930bee9dd272659) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/9_Flyweight/Prefabs using Guid(5deb4899c72af3640930bee9dd272659) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2153ae77e8df89061cd983b10508139c') in 0.009351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/4_Command
+  artifactKey: Guid(dcabccaf7838aef4782be02cc46825d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/4_Command using Guid(dcabccaf7838aef4782be02cc46825d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d85203ac290d31fac39e2f1ade9095c') in 0.0097744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/Scripts/UI/Views/Demos
+  artifactKey: Guid(98012cd7139bbdf44a4223c3c31ee626) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/Scripts/UI/Views/Demos using Guid(98012cd7139bbdf44a4223c3c31ee626) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76dce91e6f47e82e816b18e4b4e88978') in 0.0102875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/2_ObjectPool/Scripts/ExampleUsage
+  artifactKey: Guid(eb2ec9d467b924812a971c7d14421d83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/2_ObjectPool/Scripts/ExampleUsage using Guid(eb2ec9d467b924812a971c7d14421d83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20a1f16d92eac5791318b9772f36f875') in 0.0103387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/6_Observer/Animation
+  artifactKey: Guid(7d4022abb1b56480b9e95136bdc94a45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/6_Observer/Animation using Guid(7d4022abb1b56480b9e95136bdc94a45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2eed6fdc4b16500d107dd71f9c09d92') in 0.0099255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_SOLID/3_LiskovSubstitution/Scripts
+  artifactKey: Guid(2203527932f854fa4a4a2265e0e23f47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_SOLID/3_LiskovSubstitution/Scripts using Guid(2203527932f854fa4a4a2265e0e23f47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '381dae7789ec87b40c29624a840fea3d') in 0.0089911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/2_ObjectPool/Scripts
+  artifactKey: Guid(2b7e6cbe36da84479aeb6e1d6abd4506) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/2_ObjectPool/Scripts using Guid(2b7e6cbe36da84479aeb6e1d6abd4506) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd815a515ff514b082293693df3146e4') in 0.0114369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/Art/Environments/Textures/GUI
+  artifactKey: Guid(425fbd7852d14054cb48d80f10097433) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/Art/Environments/Textures/GUI using Guid(425fbd7852d14054cb48d80f10097433) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4751c8a59cd8bd545fda5217d76e20a') in 0.0121301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_SOLID/4_InterfaceSegregation/Scripts
+  artifactKey: Guid(e08e30d585c1f4d2e9034ad10b9d0079) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_SOLID/4_InterfaceSegregation/Scripts using Guid(e08e30d585c1f4d2e9034ad10b9d0079) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '742263880e49de746e3622b98111f039') in 0.0107475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/10_DirtyFlag/Prefabs/Unused
+  artifactKey: Guid(f27d66e1aed4580418a96517896f196d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/10_DirtyFlag/Prefabs/Unused using Guid(f27d66e1aed4580418a96517896f196d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f068c35c5747fe78cb0d597b67a981c5') in 0.010503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVP_UIToolkit/UI
+  artifactKey: Guid(a8a4a491cc975974a9c26d48fc1296bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVP_UIToolkit/UI using Guid(a8a4a491cc975974a9c26d48fc1296bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '758cb9cf996d0befab033f1fade8958c') in 0.0114583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_SOLID/2_OpenClosed/Prefabs
+  artifactKey: Guid(c25f666fd765f37468fbd4aa1263cfc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_SOLID/2_OpenClosed/Prefabs using Guid(c25f666fd765f37468fbd4aa1263cfc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12eb99e6eb1ed00cf34f11f7ceb26b3b') in 0.0100968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/9_Flyweight/Scripts
+  artifactKey: Guid(ea7b1a44cde7f3945bd3a0b12a096e8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/9_Flyweight/Scripts using Guid(ea7b1a44cde7f3945bd3a0b12a096e8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b938ef98a9ed36e6ca866c82691054d3') in 0.0119279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/6_Observer/Audio
+  artifactKey: Guid(d743de2a5848746e0ab3bdf851efb2d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/6_Observer/Audio using Guid(d743de2a5848746e0ab3bdf851efb2d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41095a592e7f44cb4b0ed8cbd74b7444') in 0.010537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/UI Toolkit/Resources/VisualTreeAssets
+  artifactKey: Guid(9f867fed853d40f4da80e8ff045e0821) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/UI Toolkit/Resources/VisualTreeAssets using Guid(9f867fed853d40f4da80e8ff045e0821) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0af57cec094971e2db0070ab2ff25453') in 0.0111521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/9_Flyweight
+  artifactKey: Guid(453371d3311da4e418b5a7babe07b5bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/9_Flyweight using Guid(453371d3311da4e418b5a7babe07b5bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4418ceb020b34fc2da1ec0d02b7b68b') in 0.0093416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_SOLID/2_OpenClosed/Scripts
+  artifactKey: Guid(7de9d48963b5b46139b168eb7b26fbb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_SOLID/2_OpenClosed/Scripts using Guid(7de9d48963b5b46139b168eb7b26fbb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '330cd1bc09a93da986ef963095163c6b') in 0.0097197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/2_ObjectPool/Animations/Maze
+  artifactKey: Guid(d5b62957737b1475abcf2b9184f9e568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/2_ObjectPool/Animations/Maze using Guid(d5b62957737b1475abcf2b9184f9e568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b792037c7aefac79fd2af28d777b666f') in 0.0099284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVP/Textures
+  artifactKey: Guid(1a1dcbbe73c564f069a7cfab8748c84a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVP/Textures using Guid(1a1dcbbe73c564f069a7cfab8748c84a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59aca9c57c7c145d90af678d88fbd024') in 0.0108962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/1_Factory/Scripts/ExampleUsage
+  artifactKey: Guid(f64936d02e5f24a50921d0ed662968ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/1_Factory/Scripts/ExampleUsage using Guid(f64936d02e5f24a50921d0ed662968ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3dfe3e7f9dbce3669787f02ad22ae5d4') in 0.0094585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/Scenes
+  artifactKey: Guid(6c340fe2728bfd644b069273716d71af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/Scenes using Guid(6c340fe2728bfd644b069273716d71af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e4b0f43d831fa147b52481b817ea5c2') in 0.0090482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/Art/Environments/Meshes/Flyer/Materials
+  artifactKey: Guid(108e1f6dbc0c35a4b8bd5e01df1044f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/Art/Environments/Meshes/Flyer/Materials using Guid(108e1f6dbc0c35a4b8bd5e01df1044f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd26fd4abe902284b0c02675c1b8eb13d') in 0.0100997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/10_DirtyFlag
+  artifactKey: Guid(c9873d98d3ba4454d804e54fc79c29ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/10_DirtyFlag using Guid(c9873d98d3ba4454d804e54fc79c29ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83955474a430622badf74354a040b797') in 0.0102882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/8_Strategy/AbilityScriptableObjects
+  artifactKey: Guid(e94bd8fb256ad844388502757c038811) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/8_Strategy/AbilityScriptableObjects using Guid(e94bd8fb256ad844388502757c038811) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21af7055391c574cce7917c74bcf2f32') in 0.0096885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_SOLID/5_DependencyInversion
+  artifactKey: Guid(2b934ece55b294e2db634b2565fe849d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_SOLID/5_DependencyInversion using Guid(2b934ece55b294e2db634b2565fe849d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a2aba9fe06d79f57af11aed3a5e3a95') in 0.0101409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/Resources/EventMessages/Solid
+  artifactKey: Guid(dfa3f34ae9c15f64f97fa2e029286722) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/Resources/EventMessages/Solid using Guid(dfa3f34ae9c15f64f97fa2e029286722) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61408c27bab9e448930cd9ad0b49f624') in 0.0108094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVP_UIToolkit/Prefabs
+  artifactKey: Guid(c65785a170f4af3499552ad244df8d9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVP_UIToolkit/Prefabs using Guid(c65785a170f4af3499552ad244df8d9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03a82085c24d66bc80568c706fa1a61a') in 0.0103719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/10_DirtyFlag/Scripts
+  artifactKey: Guid(bb04f599343cecc40a3fe960985b582b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/10_DirtyFlag/Scripts using Guid(bb04f599343cecc40a3fe960985b582b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0b20c99ef700eb1ab188540b88543ec') in 0.0109655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/3_Singleton/Prefabs
+  artifactKey: Guid(3abec70a4a876374fa6e77dbc9c5b585) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/3_Singleton/Prefabs using Guid(3abec70a4a876374fa6e77dbc9c5b585) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93ca5ab7eaf7edea7dbbcee6ddd0e7b2') in 0.0135438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/5_State/Scripts/ExampleUsage
+  artifactKey: Guid(eb49fafaebb3e4542a8649521839584e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/5_State/Scripts/ExampleUsage using Guid(eb49fafaebb3e4542a8649521839584e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7069737eff505e7665bcb5dbf2af85ed') in 0.0103432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/2_ObjectPool/Scripts/Pattern
+  artifactKey: Guid(f4f057c2866de477bbfcabef26814a91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/2_ObjectPool/Scripts/Pattern using Guid(f4f057c2866de477bbfcabef26814a91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6b587283b583684d624defdd7452c18') in 0.0140378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/3_Singleton/Audio
+  artifactKey: Guid(fa305297545484805b6d02251fbc7b34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/3_Singleton/Audio using Guid(fa305297545484805b6d02251fbc7b34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6250b2cd8b5ae79ea0ba6d84467bdaa1') in 0.0143497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVP/Scripts
+  artifactKey: Guid(7522b8e0bc6c84c11ab164d713633678) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVP/Scripts using Guid(7522b8e0bc6c84c11ab164d713633678) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '140da829202db685223b2bfe9c4aaea4') in 0.0376774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/Resources/EventMessages
+  artifactKey: Guid(04377981e5fec7c439fa0833df54bbef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/Resources/EventMessages using Guid(04377981e5fec7c439fa0833df54bbef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5db4d18ee2c618d5b9dc25e6c8de317d') in 0.0112935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVVM/UI
+  artifactKey: Guid(19c1e672762e87f4ca5cf5723e38ac4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVVM/UI using Guid(19c1e672762e87f4ca5cf5723e38ac4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '81cca1016e83701f4fe4066d4cd374e3') in 0.0112494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_SOLID/3_LiskovSubstitution/Scripts/Unrefactored
+  artifactKey: Guid(c896a98218b167d4eb183182f2591464) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_SOLID/3_LiskovSubstitution/Scripts/Unrefactored using Guid(c896a98218b167d4eb183182f2591464) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b704ff9599ee75a779ead577e5e945d') in 0.0134332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/9_Flyweight/Scripts/Unrefactored
+  artifactKey: Guid(3b27594cebc49464cb903d75ddc46858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/9_Flyweight/Scripts/Unrefactored using Guid(3b27594cebc49464cb903d75ddc46858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27cd026a9935a66cfdd6cdf1e02146a7') in 0.0141924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_SOLID/5_DependencyInversion/Scripts
+  artifactKey: Guid(2a546b6c4b0ca4790b8005c80dfcc867) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_SOLID/5_DependencyInversion/Scripts using Guid(2a546b6c4b0ca4790b8005c80dfcc867) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '019bcff3616ab0512cfd3739c473059b') in 0.0185179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/Resources
+  artifactKey: Guid(362d0329083584b48b690c007a7e686a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/Resources using Guid(362d0329083584b48b690c007a7e686a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '028faacaa16daca5a942ee2f8a350686') in 0.0108615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVP/Scripts/Pattern
+  artifactKey: Guid(e85f11d1b697144e3bd0136256ab109a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVP/Scripts/Pattern using Guid(e85f11d1b697144e3bd0136256ab109a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80699506fb67d29c9754815f0a827b4e') in 0.0107345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVP_UIToolkit
+  artifactKey: Guid(b3e51e4244653de40a5ebe75d5446db8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UnityTechnologies/LevelUpYourCode/_DesignPatterns/7_MVP_UIToolkit using Guid(b3e51e4244653de40a5ebe75d5446db8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '650d48afaf2f94ae330bf3de1b504a94') in 0.0126505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
